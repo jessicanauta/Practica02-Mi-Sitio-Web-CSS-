@@ -1,23 +1,27 @@
 
     #cabecera{
+        height: 60px;
         border: 1px blueviolet ridge;
         text-align: center;   
         font-family: Georgia, 'Times New Roman', Times, serif
     }
 
     #menu {
+        height: 300px;
         border: 1px aqua ridge;
         float: left;
-        width: 30%; 
+        width: 37.6%; 
     }
 
-    .contenido {
+    #contenido {
+        height: 300px;
         border: 1px blue ridge;
         float: left;
         width: 62%; 
     }
     
     #pie {
+        height: 40px;
         border: 1px black ridge;
         clear: both;
     }

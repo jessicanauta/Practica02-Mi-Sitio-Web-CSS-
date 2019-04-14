@@ -1,10 +1,7 @@
 
 #cabecera { 
     height: 60px;
-    border-width: 1px; 
-    border-color:red;
-    border-style: ridge;
-    font-size: 15px;
+    border: 1px red ridge;
     text-align: center;   
     font-family: Georgia, 'Times New Roman', Times, serif
 }
@@ -12,33 +9,25 @@
     height: 500px;
     border: 1px blueviolet ridge;
     float: left;
-    width: 18%; 
+    width: 15%;
 }
-.principal { 
+
+.principal {
     height: 500px;
     border: 1px blue ridge;
     float: left;
     width: 50%;
 }
+
 .secundario {
     height: 500px;
     border: 1px saddlebrown ridge;
     float: left;
-    width: 31.5%;
-}
-h2, h3{
-    color: tomato;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif
+    width: 30%;
 }
 
-p span{
-    color:teal;
-}
-
-.pie {
+#pie {
     height: 40px;
     border: 1px black ridge;
     clear: both;
 }
-

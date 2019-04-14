@@ -1,0 +1,66 @@
+
+#cabecera { 
+    height: 60px;
+    border-width: 1px; 
+    border-style: ridge;
+    text-align: center;   
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+#menu {
+    height: 500px;
+    border: 1px blueviolet ridge;
+    float: left;
+    width: 45%;
+}
+
+.art1{ 
+    height: 500px;
+    border: 1px blue ridge;
+    float: left;
+    width: 54.5%;
+}
+
+.art2{
+    height: 500px;
+    border: 1px saddlebrown ridge;
+    float: left;
+    width: 45%;
+}
+
+.art3{ 
+    height: 500px;
+    border: 1px blue ridge;
+    float: left;
+    width: 54.5%;
+}
+
+#pie {
+    height: 40px;
+    border: 1px black ridge;
+    clear: both;
+}
+
+h1{
+    color: red;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
+h2{
+    color:blueviolet;
+    font-size: 30px;
+    font-weight: unset;
+    font-family: 'Times New Roman', Times, serif
+}
+h3{
+    color: crimson;
+    font-size: 25px;
+    font-weight: inherit;
+    font-family: 'Times New Roman', Times, serif
+}
+
+img{
+    height: 200px ;
+    width: 500px;
+}
+

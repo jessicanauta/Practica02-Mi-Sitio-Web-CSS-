@@ -1,9 +1,8 @@
 
 #cabecera { 
     height: 60px;
-    border-width: 1px; 
-    border-color:red;
-    border-style: ridge;
+    border: 1px red ridge;
+    color: red;
     font-size: 15px;
     text-align: center;   
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -26,19 +25,8 @@
     float: left;
     width: 31.5%;
 }
-h2, h3{
-    color: tomato;
-    font-weight: bold;
-    font-family: 'Times New Roman', Times, serif
-}
-
-p span{
-    color:teal;
-}
-
 .pie {
     height: 40px;
     border: 1px black ridge;
     clear: both;
 }
-
