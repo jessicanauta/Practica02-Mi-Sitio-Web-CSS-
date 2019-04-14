@@ -1,0 +1,29 @@
+
+#cabecera { 
+    border: 1px red ridge;
+    text-align: center;   
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+#menu { 
+    border: 1px blueviolet ridge;
+    float: left;
+    width: 15%;
+}
+
+
+#principal { 
+    border: 1px blue ridge;
+    float: left;
+    width: 50%;
+}
+
+#secundario {
+    border: 1px saddlebrown ridge;
+    float: left;
+    width: 30%;
+}
+
+#pie {
+    border: 1px black ridge;
+    clear: both;
+}
