@@ -8,9 +8,13 @@
 
     #menu {
         height: 300px;
-        border: 1px aqua ridge;
+        border-width: 1px;
+        border-style: solid;
         float: left;
         width: 37.6%; 
+        -webkit-border-radius: 20px;
+        background-color:wheat;
+        margin: 5px;
     }
 
     #contenido {

@@ -12,6 +12,9 @@
     border: 1px blueviolet ridge;
     float: left;
     width: 15%;
+    -webkit-border-radius: 20px;
+    background-color:wheat;
+    line-height: 5px;        /* para la separacion entre lineas */
 }
 
 .principal { 
@@ -48,3 +51,7 @@ a:visited {
   a:active {
     color: #FF0000;
   }
+  nav a {
+    margin: 5px;
+    text-decoration: none;
+}

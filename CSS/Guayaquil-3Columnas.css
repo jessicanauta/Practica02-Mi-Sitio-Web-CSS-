@@ -13,6 +13,8 @@
     border: 1px blueviolet ridge;
     float: left;
     width: 18%; 
+    -webkit-border-radius: 20px;
+    background-color:wheat;
 }
 .principal { 
     height: 500px;

@@ -11,6 +11,8 @@
     border: 1px blueviolet ridge;
     float: left;
     width: 45%;
+    -webkit-border-radius: 20px;
+    background-color:wheat;
 }
 
 .art1{ 
