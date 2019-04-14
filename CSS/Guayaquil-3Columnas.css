@@ -1,8 +1,9 @@
 
 #cabecera { 
     height: 60px;
-    border: 1px red ridge;
-    color: red;
+    border-width: 1px; 
+    border-color:red;
+    border-style: ridge;
     font-size: 15px;
     text-align: center;   
     font-family: Georgia, 'Times New Roman', Times, serif
@@ -25,8 +26,34 @@
     float: left;
     width: 31.5%;
 }
+h2, h3{
+    color: tomato;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif
+}
+
+p span{
+    color:teal;
+}
+
 .pie {
     height: 40px;
     border: 1px black ridge;
     clear: both;
 }
+
+/* visited link */
+a:visited {
+    color: #0000FF;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #FF0000;
+  }
+

@@ -31,3 +31,18 @@
     border: 1px black ridge;
     clear: both;
 }
+
+/* visited link */
+a:visited {
+    color: #0000FF;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #FF0000;
+  }
