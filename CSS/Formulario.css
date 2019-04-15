@@ -1,3 +1,36 @@
+#cabecera{
+    height: 100px;
+    border: 1px blueviolet ridge;
+    text-align: center;   
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: oblique;
+    color: red;
+    font-size: x-large;
+    background-color: burlywood;       
+}
+
+#menu {
+    height: 250px;
+    border-width: 1px;
+    border-style: solid;
+    float: left;
+    width: 20%; 
+    -webkit-border-radius: 20px;
+    background-color:wheat;
+    margin: 5px;
+    padding: 10px;
+}
+
+.pie {
+    height: 40px;
+    border: 1px black ridge;
+    clear: both;
+    font-style: oblique;
+    margin: 5px;
+    padding: 10px;
+    background: silver;
+}
+
 .btn {
     display: block;
     margin: 1em 0;
@@ -7,3 +40,18 @@ label {
     display: block;
     margin: .5em 0 0 0;
 }
+
+/* visited link */
+a:visited {
+    color: #0000FF;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #FF00FF;
+  }
+  
+  /* selected link */
+  a:active {
+    color: #FF0000;
+  }

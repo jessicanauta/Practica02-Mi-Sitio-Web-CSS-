@@ -4,29 +4,42 @@
     border-width: 1px; 
     border-color:red;
     border-style: ridge;
-    font-size: 15px;
+    color: #FF0000;
+    background-color: aquamarine;
     text-align: center;   
     font-family: Georgia, 'Times New Roman', Times, serif
 }
-#menu { 
+#menu {
     height: 500px;
-    border: 1px blueviolet ridge;
+    border-width: 1px;
+    border-style: solid;
     float: left;
     width: 18%; 
     -webkit-border-radius: 20px;
     background-color:wheat;
+    margin: 5px;
+    padding: 10px;
 }
 .principal { 
     height: 500px;
     border: 1px blue ridge;
     float: left;
-    width: 50%;
+    width: 44.7%;
+    background-color: burlywood;
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
 }
 .secundario {
     height: 500px;
     border: 1px saddlebrown ridge;
+    background-color: wheat;
+    color: teal;
     float: left;
-    width: 31.5%;
+    width: 30%;
+    margin: 5px;
+    padding: 10px;
+    text-align: justify
 }
 h2, h3{
     color: tomato;
@@ -35,13 +48,25 @@ h2, h3{
 }
 
 p span{
-    color:teal;
+    color: brown;
+    margin: 5px;
+    padding: 5px;
+    text-align: justify;
 }
 
 .pie {
     height: 40px;
     border: 1px black ridge;
     clear: both;
+    font-style: oblique;
+    margin: 5px;
+    padding: 5px;
+    background: silver;
+}
+
+img{
+    height: 300px;
+    width: 550px;
 }
 
 /* visited link */

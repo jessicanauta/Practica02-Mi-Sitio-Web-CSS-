@@ -1,3 +1,4 @@
+
 #cabecera{
     height: 100px;
     border: 1px blueviolet ridge;
@@ -6,57 +7,45 @@
     font-style: oblique;
     color: red;
     font-size: x-large;
-    background-color: rgb(245, 212, 186);  
+    background-color: antiquewhite;  
 }
 #menu {
-    height: 550px;
+    height: 350px;
     border-width: 1px;
     border-style: solid;
     float: left;
-    width: 45%; 
+    width: 18%; 
     -webkit-border-radius: 20px;
     background-color:wheat;
     margin: 5px;
     padding: 10px;
 }
 
-.art1{ 
-    height: 550px;
+.principal { 
+    height: 350px;
     border: 1px blue ridge;
     float: left;
-    width: 50%;
+    width: 44.7%;
+    background-color: rgb(182, 236, 250);
     margin: 5px;
     padding: 10px;
-    background-color: tan;
-    color: rgb(53, 4, 99);
     text-align: justify;
+    color: rgb(65, 4, 65);
 }
 
-.art2{
-    height: 370px;
-    border: 1px saddlebrown ridge;
+.secundario {
+    height: 350px;
+    border: 1px rgb(236, 202, 177) ridge;
+    background-color: wheat;
+    color: rgb(21, 70, 143);
     float: left;
-    width: 45%;
+    width: 30%;
     margin: 5px;
     padding: 10px;
-    background-color: tan;
-    color: rgb(53, 4, 99);
     text-align: justify;
 }
 
-.art3{ 
-    height: 370px;
-    border: 1px blue ridge;
-    float: left;
-    width: 50%;
-    margin: 5px;
-    padding: 10px;
-    background-color: tan;
-    color: rgb(53, 4, 99);
-    text-align: justify;
-}
-
-#pie {
+.pie {
     height: 40px;
     border: 1px black ridge;
     clear: both;
@@ -67,24 +56,15 @@
 }
 
 h2{
-    color:rgb(53, 4, 99);
-    font-size: 30px;
-    font-weight: unset;
+    color:rgb(138, 66, 24);
+    font-weight: bold;
     font-family: 'Times New Roman', Times, serif
-}
-h3{
-    color: crimson;
-    font-size: 25px;
-    font-weight: inherit;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 img{
-    height: 200px ;
-    width: 500px;
+    height: 200px;
+    width: 550px;
 }
-
-
 
 /* visited link */
 a:visited {

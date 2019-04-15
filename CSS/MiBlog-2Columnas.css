@@ -1,35 +1,52 @@
-
     #cabecera{
-        height: 60px;
+        height: 100px;
         border: 1px blueviolet ridge;
         text-align: center;   
-        font-family: Georgia, 'Times New Roman', Times, serif
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: oblique;
+        color: red;
+        font-size: x-large;
+        background-color: burlywood;       
     }
-
-    #menu {
-        height: 300px;
+   #menu {
+        height: 250px;
         border-width: 1px;
         border-style: solid;
         float: left;
-        width: 37.6%; 
+        width: 33%; 
         -webkit-border-radius: 20px;
         background-color:wheat;
         margin: 5px;
+        padding: 10px;
     }
-
     #contenido {
-        height: 300px;
+        font-size: 15px;
+        font-style: initial;
+        height: 250px;
         border: 1px blue ridge;
+        color: #0000FF;
         float: left;
         width: 62%; 
+        margin: 5px;
+        padding: 10px;
+        background-color: aquamarine;
+        text-align: justify
     }
     
     #pie {
         height: 40px;
         border: 1px black ridge;
         clear: both;
+        font-style: oblique;
+        margin: 5px;
+        padding: 10px;
+        background: silver;
     }
 
+    h2{
+      color: #FF00FF;
+      font-style: italic;
+    }
   
   /* visited link */
   a:visited {
