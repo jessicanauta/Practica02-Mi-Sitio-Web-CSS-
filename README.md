@@ -12,5 +12,3 @@
   <li>Usuario de GITHUB: jessicanauta</li>
   <li>•	URL del repositorio de la práctica: https://github.com/jessicanauta/Practica02-Mi-Sitio-Web-CSS-</li>
 </ul>
-
-![imagen1](https://user-images.githubusercontent.com/49213219/58897016-f9892880-86bc-11e9-9f18-ee3c6b00cf2f.jpg)
